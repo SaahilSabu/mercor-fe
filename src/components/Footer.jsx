@@ -2,7 +2,7 @@ import React from "react";
 const Footer = () => {
   const tik = "../public/assets/tik";
   return (
-    <div className="grid grid-cols-3 justify-center items-center w-full absolute 2xl:bottom-2 3xl:bottom-10">
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center w-full absolute 2xl:bottom-2 3xl:bottom-10 px-4">
       <div className="flex px-4">
         <button className="px-4 font-bold border-white border rounded-sm mx-2 py-4 flex items-center z-10 bg-black">
           <svg

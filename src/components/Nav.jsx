@@ -2,7 +2,7 @@ import React from 'react'
 
 const Nav = () => {
   return (
-    <div className=' flex justify-between items-center px-20 py-5'>
+    <div className=' flex flex-col lg:flex-row justify-between items-center px-6 lg:px-20 py-5'>
       <button>
         <img src = "/assets/logo.png" />
       </button>
