@@ -15,3 +15,12 @@
   height: 100vh;
   width: 100vw;
 }
+.cont-m {
+  background-image: url("../public/assets/background.png");
+  color: white;
+  background-size: cover; /* Set background size to cover */
+  background-position: center center; /* Center the background image */
+  height: 100%;
+  width: 100vw;
+}
+
