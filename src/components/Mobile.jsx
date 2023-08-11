@@ -37,7 +37,10 @@ const Mobile = () => {
       <div className='absolute top-20 left-60'>
         <img src='/assets/intro-cube 1.png' className='' />
     </div>
-    <div className='absolute top-40 right-40'>
+    <div className='absolute bottom-20 right-20 py-5 w-28'>
+        <img src='/assets/intro-cubes 1.png' className='' />
+    </div>
+    <div className='absolute top-40 right-40 w-28'>
         <img src='/assets/intro-stairs 1.png' className='' />
     </div>
 
@@ -52,7 +55,7 @@ const Mobile = () => {
           APP
         </h1>
       </div>
-    <div className='absolute bottom-0 left-0'>
+    <div className='absolute bottom-0 left-0 w-48'>
         <img src='/assets/intro-pillar 1.png' className='' />
     </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center w-full absolute 2xl:bottom-2 3xl:bottom-10 px-4 bg-black">
